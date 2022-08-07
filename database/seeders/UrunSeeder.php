@@ -17,8 +17,8 @@ class UrunSeeder extends Seeder
      */
     public function run(Generator $faker)
     {
-        Urun::truncate();
-        UrunDetay::truncate();
+        /*Urun::truncate();*/
+        /*UrunDetay::truncate();*/
 
         for ($i=0; $i<30; $i++) {
             $urun_adi = $faker->sentence(2);
